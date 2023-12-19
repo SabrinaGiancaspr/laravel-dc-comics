@@ -35,11 +35,11 @@
                 <td><a href="{{route('comics.edit', $comic)}}">Edit</a></td>
                 <td> 
                   <form action="{{ route('comics.destroy', $comic)}}" method="POST">
-                    @csrf
-                    @method('DELETE')
-                    <button type="button" onclick="confirmDelete({{ $comic->id }})">Delete</button>
+                      @csrf
+                      @method('DELETE')
+                      <button type="submit">Delete</button>
                   </form>
-                </td>
+              </td>
               </tr>
           @empty
               <tr>
@@ -52,4 +52,5 @@
       </table>
     </div>
   </section>
+  
 @endsection
