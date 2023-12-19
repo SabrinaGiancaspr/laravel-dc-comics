@@ -4,7 +4,7 @@
 
 <section class="py-5">
   <div class="container">
-    <form action="{{ route('comics.update', ['comic->id'])}}" method="POST">
+    <form action="{{ route('comics.update', ['comic'=>$comic->id])}}" method="POST">
         
       @csrf
       @method('PUT')
