@@ -36,6 +36,20 @@
         <input type="text" class="form-control" name="type" id="type" rows="3" placeholder="tipo comic"></textarea>
       </div>
 
+      <div class="mb-3">
+        <label for="sale_date" class="form-label">sale date</label>
+        <input type="date" class="form-control" name="sale_date" id="sale_date" rows="3" placeholder="sale_date"></textarea>
+
+      </div>
+
+      <div class="mb-3">
+        <label for="artists" class="form-label">artists</label>
+        <textarea class="form-control" name="artists" id="artists" rows="3" placeholder="artisti"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="writers" class="form-label">writers</label>
+        <textarea class="form-control" name="writers" id="writers" rows="3" placeholder="scrittori"></textarea>
+      </div>
       <div class="">
         <input type="submit" class="btn btn-primary" value="crea">
       </div>
