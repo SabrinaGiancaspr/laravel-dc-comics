@@ -4,7 +4,7 @@
 
 <section class="py-5">
   <div class="container">
-    <form action="{{ route('comics.store') }}" method="POST" >
+    <form action="{{ route('comics.store' ) }}" method="POST" >
 
       @csrf
 
